@@ -1,0 +1,35 @@
+/* Ensure the container is centered both horizontally and vertically */
+.login-container{
+  width: 800px;
+  margin-left: 400px;
+  padding-top: 200px;
+}
+
+/* Adjust the responsive behavior */
+.Absolute-Center.is-Responsive {
+  padding: 40px;
+  width: 80%; /* Set a width percentage for smaller screens */
+  max-width: 600px; /* Set a larger max width for wider screens */
+  background-color: #fff; /* Add a background color for better visibility */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+  border-radius: 8px; /* Optional: Slight border radius for rounded corners */
+}
+
+/* Style for the logo container */
+#logo-container {
+  margin: 0 auto 20px auto;
+  width: 200px;
+  height: 30px;
+  background-image: url('http://placehold.it/200x30/000000/ffffff/&text=BRAND+LOGO');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Adjustments for mobile screens */
+@media (max-width: 576px) {
+  .Absolute-Center.is-Responsive {
+    width: 90%; /* Increase width to take up more screen space on smaller devices */
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+}
